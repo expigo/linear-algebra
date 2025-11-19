@@ -22,6 +22,8 @@ const navItems: NavItem[] = [
   { path: '/orthogonality', label: 'Orthogonality', chapter: 6 },
   { path: '/svd', label: 'SVD', chapter: 7 },
   { path: '/transformations', label: 'Linear Transformations', chapter: 8 },
+  { path: '/matrix-calculus', label: 'Matrix Calculus', chapter: 9 },
+  { path: '/projections', label: 'Projections & Least Squares', chapter: 10 },
   { path: '/ml-applications', label: 'ML Applications' },
 ]
 

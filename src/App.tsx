@@ -9,6 +9,8 @@ import EigenPage from './pages/chapters/EigenPage'
 import OrthogonalityPage from './pages/chapters/OrthogonalityPage'
 import SVDPage from './pages/chapters/SVDPage'
 import TransformationsPage from './pages/chapters/TransformationsPage'
+import MatrixCalculusPage from './pages/chapters/MatrixCalculusPage'
+import ProjectionsPage from './pages/chapters/ProjectionsPage'
 import MLApplicationsPage from './pages/MLApplicationsPage'
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
           <Route path="/orthogonality" element={<OrthogonalityPage />} />
           <Route path="/svd" element={<SVDPage />} />
           <Route path="/transformations" element={<TransformationsPage />} />
+          <Route path="/matrix-calculus" element={<MatrixCalculusPage />} />
+          <Route path="/projections" element={<ProjectionsPage />} />
           <Route path="/ml-applications" element={<MLApplicationsPage />} />
         </Routes>
       </Layout>

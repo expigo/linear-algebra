@@ -39,7 +39,9 @@ const chapters = [
   { number: 5, title: 'Eigenvalues & Eigenvectors', path: '/eigenvalues', description: 'Characteristic equations, diagonalization, and ML applications' },
   { number: 6, title: 'Orthogonality', path: '/orthogonality', description: 'Orthogonal vectors, Gram-Schmidt, QR decomposition' },
   { number: 7, title: 'SVD', path: '/svd', description: 'Singular Value Decomposition and its applications in ML' },
-  { number: 8, title: 'Linear Transformations', path: '/transformations', description: 'Geometric interpretation of linear maps' },
+  { number: 8, title: 'Linear Transformations', path: '/transformations', description: 'Geometric interpretation with interactive visualizer' },
+  { number: 9, title: 'Matrix Calculus', path: '/matrix-calculus', description: 'Gradients, Jacobians, Hessians for ML optimization' },
+  { number: 10, title: 'Projections & Least Squares', path: '/projections', description: 'Orthogonal projections, regression, and data fitting' },
 ]
 
 export default function Home() {

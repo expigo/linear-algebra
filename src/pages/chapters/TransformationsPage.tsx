@@ -1,7 +1,8 @@
 import Section from '../../components/Section'
 import MathBlock, { InlineMathBlock } from '../../components/MathBlock'
-import Definition, { Example } from '../../components/Definition'
+import Definition, { Example, Note } from '../../components/Definition'
 import PythonEditor from '../../components/PythonEditor'
+import TransformationVisualizer from '../../components/TransformationVisualizer'
 
 export default function TransformationsPage() {
   return (
@@ -36,6 +37,24 @@ export default function TransformationsPage() {
             {`T(\\mathbf{x}) = A\\mathbf{x}`}
           </MathBlock>
         </Example>
+      </Section>
+
+      <Section title="Interactive Visualization" id="interactive">
+        <p className="text-gray-700 dark:text-gray-300 mb-4">
+          Explore how different matrices transform the unit square and basis vectors:
+        </p>
+
+        <TransformationVisualizer />
+
+        <Note>
+          <strong>Key Observations:</strong>
+          <ul className="list-disc ml-6 mt-2 space-y-1">
+            <li>The columns of A tell you where the basis vectors e₁ and e₂ go</li>
+            <li>The determinant tells you how areas scale (and whether orientation reverses)</li>
+            <li>Linear transformations map lines to lines and preserve parallelism</li>
+            <li>The origin always stays fixed</li>
+          </ul>
+        </Note>
       </Section>
 
       <Section title="Geometric Transformations" id="geometric">
